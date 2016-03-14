@@ -29,9 +29,15 @@
     // DB connection info
     //TODO: Update the values for $host, $user, $pwd, and $db
     //using the values you retrieved earlier from the Azure Portal.
-    $host = "localhost";
-    $user = "fabricio";
-    $pwd = "48Bxm7E4NLzjKCDa";
+    //$host = "localhost";
+    //$user = "fabricio";
+    //$pwd = "48Bxm7E4NLzjKCDa";
+    //$db = "RegistrationDB";
+    
+    //Azure Database
+    $host = "us-cdbr-azure-east-a.cloudapp.net";
+    $user = "b0b67c72503352";
+    $pwd = "4ccfcac8";
     $db = "RegistrationDB";
     
     // Connect to database.
