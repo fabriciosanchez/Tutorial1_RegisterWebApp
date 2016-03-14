@@ -38,7 +38,7 @@
     $host = "us-cdbr-azure-east-a.cloudapp.net";
     $user = "b0b67c72503352";
     $pwd = "4ccfcac8";
-    $db = "RegistrationDB";
+    $db = "acsm_fd482c6eef6a47e";
     
     // Connect to database.
     try {
