@@ -56,7 +56,7 @@
         $email = $_POST['email'];
         $data = date("Y-m-d");
         // Insert data
-        $sql_insert = "INSERT INTO Registration (nome, email, data)
+        $sql_insert = "INSERT INTO Registration2 (nome, email, data)
                    VALUES (?,?,?)";
         $stmt = $conn->prepare($sql_insert);
         $stmt->bindValue(1, $nome);
@@ -71,7 +71,7 @@
     }
     
     // Retrieve data
-    $sql_select = "SELECT * FROM Registration";
+    $sql_select = "SELECT * FROM Registration2";
     $stmt = $conn->query($sql_select);
     $registrants = $stmt->fetchAll();
     if(count($registrants) > 0) {
