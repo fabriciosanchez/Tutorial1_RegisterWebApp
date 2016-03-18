@@ -1,7 +1,6 @@
 <html>
 <head>
 <Title>Formulário de Registro.</Title>
-<p>Não perca mais tempo, registre-se agora mesmo!</p>
 <style type="text/css">
     body { background-color: #fff; border-top: solid 10px #000;
         color: #333; font-size: .85em; margin: 20; padding: 20;
